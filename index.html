@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anti Sub - Product Website</title>
+  <title>Anti Sub</title>
   <meta name="description" content="Anti Sub is a desktop workflow for subtitle processing and TikTok publishing with user authorization and privacy controls.">
+  <link rel="icon" type="image/png" href="./assets/app-icon.png">
+  <link rel="apple-touch-icon" href="./assets/app-icon.png">
   <style>
     :root{
       --bg:#070b17;
@@ -29,6 +31,18 @@
       border-radius:16px;
       padding:24px;
       box-shadow:0 10px 40px rgba(0,0,0,.35);
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:14px;
+    }
+    .brand img{
+      width:64px;
+      height:64px;
+      border-radius:18px;
+      box-shadow:0 12px 34px rgba(0,0,0,.36);
     }
     h1{margin:0 0 10px;font-size:34px}
     h2{margin:0 0 12px;font-size:22px}
@@ -87,8 +101,13 @@
 <body>
   <div class="wrap">
     <section class="hero">
-      <span class="pill">Anti Sub - Desktop Product Site</span>
-      <h1>Anti Sub</h1>
+      <div class="brand">
+        <img src="./assets/app-icon.png" alt="Anti Sub app icon">
+        <div>
+          <span class="pill">Anti Sub - Desktop Product Site</span>
+          <h1>Anti Sub</h1>
+        </div>
+      </div>
       <p>Anti Sub is a desktop workflow used by creators to process subtitles and publish videos to social platforms, including TikTok integrations through authorized APIs.</p>
       <p class="muted">Website URL for TikTok app review: <code>https://huuhoan229.github.io/anti-sub/</code></p>
     </section>
